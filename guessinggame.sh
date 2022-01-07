@@ -10,7 +10,7 @@
 function guessinggame {
 
     # store number of files in current directory
-    filenames=($(ls -p $PWD | grep -v /))
+    filenames=$(ls -p $PWD | grep -v /)
 
     # calculate the number of files in current directory
     numfiles=0
@@ -18,7 +18,7 @@ function guessinggame {
     do
         let numfiles=numfiles+1
     done
-
+    
     echo "How many files are in the current directory?"
     read response
 
