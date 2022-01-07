@@ -35,3 +35,5 @@ function guessinggame {
         echo "Correct. Congratulations!"
     fi
 }
+
+guessinggame
