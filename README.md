@@ -2,7 +2,7 @@
 <h4>Coursera, The Unix Workbench</h4>
 
 Last Make run date:
-Thu Jan  6 21:36:54 EST 2022
+Thu Jan  6 22:04:39 EST 2022
 
-guessinggame.sh contains the following lines of code:
+guessinggame.sh number of lines:
 44

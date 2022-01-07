@@ -7,7 +7,7 @@ readme:
 	echo "Last Make run date:" >> README.md
 	date >> README.md
 	echo "" >> README.md
-	echo "guessinggame.sh contains the following lines of code:" >> README.md
+	echo "guessinggame.sh number of lines:" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.MD
 
 	
